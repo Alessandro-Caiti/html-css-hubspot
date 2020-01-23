@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fullwidth {
+    height: 300px;
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* inizio header */
+
+.bgc-lgray {
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+header {
+    height: 70px;
+    padding: 10px;
+    line-height: 50px;
+}
+
+#logo, .lang-menu, .contact-us {
+    float: left;
+}
+
+/* fine header */
+
+/* inizio riga 2 */
+
+
+/* fine riga 2 */
+
+/* inizio riga 3 */
+
+.bgc-blue {
+    background-color: #425b76;
+}
+
+/* fine riga 3 */
+
+/* inizio riga 4 */
+
+.bgc-lgreen {
+    background-color: #afebe4;
+    border-bottom: 3px solid #33475b;
+}
+
+.fullw-color {
+    height: 80%;
+    background-image: linear-gradient(to right top, rgb(254, 248, 240), rgb(255, 243, 238), rgb(255, 241, 238));
+    border-bottom: 3px solid #33475b;
+}
+
+/* fine riga 4 */
+
+/* inizio riga 5 */
+
+
+
+/* fine riga 5 */
+
+
+/* inizio riga 6 */
+
+.bgc-agreen {
+    background-image: linear-gradient(45deg, rgb(0, 164, 189), rgb(0, 189, 165));
+}
+
+
+/* fine riga 6 */
+
+
+/* inizio riga 7 */
+
+
+/* fine riga 7 */
+
+
+/* inizio riga 8 */
+
+.bgc-dblue {
+    background-color: #33475b;
+}
+
+
+/* fine riga 8 */
