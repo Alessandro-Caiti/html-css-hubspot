@@ -10,6 +10,11 @@
     clear: both;
 }
 
+* {
+    font-family: 'Lato', sans-serif;
+    color: #33475b;
+}
+
 .fullwidth {
     height: 300px;
 }
@@ -20,24 +25,74 @@
     margin: 0 auto;
 }
 
-/* inizio header */
+/* inizio riga 1*/
 
 .bgc-lgray {
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
 }
 
-header {
+.lang {
     height: 70px;
     padding: 10px;
     line-height: 50px;
-}
-
-#logo, .lang-menu, .contact-us {
     float: left;
 }
 
-/* fine header */
+#logo, .lang-menu, .contact-us, #srchlens, .button-top {
+    float: left;
+}
+
+#logo, .lang-menu, .lang-menu a, .contact-us {
+    margin-right: 10px;
+}
+
+.fas.fa-sort-down {
+    padding-right: 10px;
+    border-right: 2px solid #cbd6e2;
+}
+
+.cta-button {
+    height: 70px;
+    padding: 10px;
+    line-height: 50px;
+    float: right;
+}
+
+/* colore bottoni over = #ff8f73 */
+
+#srchlens, .button-top {
+    margin-left: 10px;
+}
+
+#srchlens {
+    margin-right: 10px;
+}
+
+.fa-search {
+    color: darkturquoise;
+}
+
+.login-button {
+    background-color: white;
+    color: #ff7a59;
+    border: 1px solid #ff7a59;
+    border-radius: 4px;
+    padding: 6px 13px;
+}
+
+.get-button {
+    color: white;
+    background-color: #ff7a59;
+    border: none;
+    border-radius: 4px;
+}
+
+.hbs-free-small {
+    padding: 6px 13px;
+}
+
+/* fine riga 1 */
 
 /* inizio riga 2 */
 
