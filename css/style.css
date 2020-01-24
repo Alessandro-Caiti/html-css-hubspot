@@ -187,15 +187,56 @@
 
 /* inizio riga 4 */
 
-.bgc-lgreen {
-    background-color: #afebe4;
+.bgc-lpink {
+    position: relative;
+    background-image: linear-gradient(to right top, rgb(254, 248, 240), rgb(255, 243, 238), rgb(255, 241, 238));
     border-bottom: 3px solid #33475b;
 }
 
-.fullw-color {
+.text-container {
+    max-width: 30%;
+    text-align: left;
+    padding: 15% 0;
+    position: relative;
+    bottom: 70px;
+    transform: translateY(35px);
+    z-index: 9;
+}
+
+.text-container h1, .text-container p, .text-container button {
+    margin: 15px 0;
+}
+
+.text-container h1 {
+    font-size: 50px;
+}
+
+.text-container p:last-child {
+    font-size: 11px;
+    max-width: 180px;
+}
+
+.hbs-free-big {
+    padding: 25px 50px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bgc-lpink img {
+    width: 1000px;
     height: 80%;
-    background-image: linear-gradient(to right top, rgb(254, 248, 240), rgb(255, 243, 238), rgb(255, 241, 238));
-    border-bottom: 3px solid #33475b;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.fullwidth-row-lgreen {
+    width: 100%;
+    height: 70px;
+    background-color: #afebe4;
+    border-top: 3px solid #33475b;
+    position: absolute;
+    bottom: 0;
 }
 
 /* fine riga 4 */
