@@ -61,7 +61,7 @@
     font-size: 17px;
 }
 
-.lang a, p {
+.lang a, .lang p {
     font-weight: bold;
 }
 
@@ -156,6 +156,32 @@
     background-color: #425b76;
 }
 
+
+.banner-text p, .banner-text strong {
+    color: white;
+}
+
+.banner-text p {
+    width: 80%;
+    padding: 10px 20px;
+    line-height: 20px;
+    float: left;
+}
+
+.button-banner {
+    height: 70px;
+    padding: 10px;
+    line-height: 50px;
+    float: right;
+}
+
+.button-lrn {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
 
 /* fine riga 3 */
 
