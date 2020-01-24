@@ -243,6 +243,163 @@
 
 /* inizio riga 5 */
 
+.gray-row-1 {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0 50px;
+}
+
+.gray-row-1 img {
+    max-width: 260px;
+}
+
+.gray-row-1 h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.gray-row-2 {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.gray-square {
+    text-align: center;
+    padding: 80px;
+    box-shadow: 0px 10px 50px -5px rgba(51,71,91,0.12);
+}
+
+.gray-left-box {
+    width: 25%;
+    float: left;
+}
+
+.gray-left-box img {
+    height: 150px;
+    width: 100%;
+}
+
+.free-crm-padding {
+    padding-top: 20px;
+}
+
+.free-crm {
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.gray-right-box {
+    width: 75%;
+    float: left;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.gray-right-box h4 {
+    font-size: 22px;
+}
+
+.text-list {
+    text-align: left;
+}
+
+.text-list p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.text-ul-list p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-ul-list p::after {
+    width: 75%;
+    background-color: #e0e6ed;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.text-ul-list ul {
+    list-style-type: none;
+}
+
+.text-ul-list ul li {
+    float: left;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fas.fa-check-circle {
+    color: #ff7a59;
+    margin-right: 10px;
+}
+
+.gray-columns {
+    margin-top: 70px;
+}
+
+.left-column {
+    width: 31.33%;
+    float: left;
+    background-color: white;
+    box-shadow: 0px 0px 11px #eaf0f6;
+}
+
+.gray-columns h4 {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.column-img img {
+    height: 150px;
+    width: 100%;
+}
+
+.column-content {
+    padding: 20px 30px;
+}
+
+.gray-columns hr {
+    margin: 30px auto;
+    border: 1px solid #e0e6ed;
+}
+
+.column-list p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.column-list ul {
+    list-style-type: none;
+}
+
+.column-list li {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.get-started {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.get-started button {
+    padding: 12px 25px;
+}
+
+.central-column {
+    margin: 0 3%;
+}
 
 
 /* fine riga 5 */
