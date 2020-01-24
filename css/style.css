@@ -47,9 +47,22 @@
     margin-right: 10px;
 }
 
-.fas.fa-sort-down {
+.lang-menu a {
+    text-decoration: none;
+}
+
+.lang-menu .fas.fa-sort-down {
     padding-right: 10px;
     border-right: 2px solid #cbd6e2;
+}
+
+.fas.fa-sort-down {
+    color: #0091ae;
+    font-size: 17px;
+}
+
+.lang a, p {
+    font-weight: bold;
 }
 
 .cta-button {
@@ -96,6 +109,44 @@
 
 /* inizio riga 2 */
 
+.nav-row {
+    height: 70px;
+    padding: 10px;
+    line-height: 50px;
+}
+
+.img-logo {
+    float: left;
+}
+
+.img-logo img {
+    vertical-align: middle;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul .fas.fa-sort-down {
+    margin-left: 10px;
+    vertical-align: text-top;
+}
+
 
 /* fine riga 2 */
 
@@ -104,6 +155,7 @@
 .bgc-blue {
     background-color: #425b76;
 }
+
 
 /* fine riga 3 */
 
