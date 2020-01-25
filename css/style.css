@@ -415,7 +415,72 @@
     background-image: linear-gradient(45deg, rgb(0, 164, 189), rgb(0, 189, 165));
 }
 
+.table-main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
 
+.table-text {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.table-text h2, .table-text p {
+    color: white;
+}
+
+.table-text h2 {
+    font-size: 32px;
+}
+
+.table-text p {
+    padding-top: 16px;
+}
+
+.table-grid {
+    margin-top: 80px;
+    padding-bottom: 130px;
+}
+
+.table-square {
+    width: 25%;
+    max-width: 25%;
+    text-align: center;
+    float: left;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.table-square img {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.table-square-text h2 {
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: white;
+}
+
+.table-square-text h2::after {
+    content: "+";
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.table-square-text p {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
 /* fine riga 6 */
 
 
