@@ -15,7 +15,7 @@
     color: #33475b;
 }
 
-.fullwidth {
+.fullwidth1 {
     height: 300px;
 }
 
@@ -496,7 +496,86 @@
 
 /* inizio riga 7 */
 
+.customer-brand {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 100px 36px 0;
+}
 
+.customer-brand-text {
+    max-width: 330px;
+    padding: 20px 40px 20px 40px;
+    float: left;
+}
+
+.customer-brand-text h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 0 5px;
+}
+
+.customer-brand-text p {
+    font-size: 20px;
+}
+
+.customer-brand-icons {
+    max-width: 600px;
+    float: right;
+}
+
+.brand-icon {
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+
+.brand-icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.start-growing-hubspot {
+    max-width: 1080px;
+    margin: 120px auto;
+}
+
+.growing-text {
+    width: 45%;
+    height: 100%;
+    padding-left: 32px;
+    float: left;
+    display: inline-block;
+}
+
+.growing-text h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.growing-text p {
+    margin: 16px 0;
+}
+
+.growing-text button {
+    margin: 24px 0 16px;
+}
+
+.growing-text p:last-child {
+    font-size: 12px;
+}
+
+.growing-img {
+    width: 350px;
+    height: 100%;
+    float: right;
+    display: inline-block;
+}
+
+.growing-img img {
+    max-width: 100%;
+}
 /* fine riga 7 */
 
 
@@ -506,5 +585,50 @@
     background-color: #33475b;
 }
 
+footer {
+    max-width: 1080px;
+    padding: 92px 32px 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #cbd6e2;
+}
+
+.footer-navbar {
+    width: 100%;
+}
+
+.footer-column {
+    width: 25%;
+    padding: 0 16px;
+    float: left;
+}
+
+
+.footer-column li {
+    color: white;
+}
+
+
+.footer-languages {
+    width: 100%;
+    padding: 32px 0;
+}
+
+.footer-languages li {
+    float: left;
+    text-align: center;
+}
+
+.footer-end {
+    width: 100%;
+    padding: 32px 0;
+    border-top: 1px solid #7c98b6;
+}
 
 /* fine riga 8 */
