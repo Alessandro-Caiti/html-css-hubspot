@@ -622,6 +622,7 @@ footer a {
 
 .footer-languages li {
     float: left;
+    padding: 8px 16px;
     text-align: center;
 }
 
