@@ -28,6 +28,14 @@
     border-bottom: 1px solid #cbd6e2;
 }
 
+.top-row {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
 .lang {
     height: 70px;
     padding: 10px;
