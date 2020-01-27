@@ -640,6 +640,15 @@ footer a {
     color: #33475b;
 }
 
+.social-icon-link li {
+    float: left;
+    padding-right: 20px;
+}
+
+.social-icon-link i {
+    font-size: 20px;
+}
+
 .footer-languages {
     width: 100%;
     padding: 32px 0;
